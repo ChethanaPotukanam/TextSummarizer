@@ -1,4 +1,3 @@
 # postman
 
-
-https://chethana-aits.onrender.com/
+https://textsummarizer-9mij.onrender.com

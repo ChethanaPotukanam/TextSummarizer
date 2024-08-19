@@ -12,28 +12,50 @@ body, html {
 .cta-section {
   background-color: black;
   padding: 40px;
-}
-.cta-content {
-  justify-content: center;
-  display: flex;
-  flex-wrap: nowrap;
+  text-align: center;
 }
 
 .cta-text {
-  flex-basis: 50%;
-  padding-right: 20px;
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-.cta-content h2 {
-  font-size: 25px;
-  color: #333;
-  margin-bottom: 10px;
+.cta-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.cta-content p {
-  font-size: 16px;
-  color: #666;
-  padding-bottom: 10px;
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.cta-content img {
+  max-width: 140px;
+  /* Adjust width as needed */
+  height: auto;
+  padding: 10px;
+  border:2px solid white;
+  border-radius: 10px;
+}
+
+.cta-content img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.tech-name {
+  font-size: 18px;
+  color: white;
+  border:2px solid white;
+  border-radius: 5px;
+  padding:5px;
+  margin-top: 10px;
 }
 
 .cta-button {
@@ -109,7 +131,7 @@ textarea {
 
 .submit-button {
   position: relative;
-  background-color: #ef5b25;
+  background-color: rgb(118, 183, 236);
   color: #ffffff;
   font-weight: bold;
   border-radius: 4px;
@@ -126,7 +148,7 @@ textarea {
 
 .submit-button:disabled{
   position: relative;
-  background-color: #ef5b25;
+  background-color: rgb(118, 183, 236);
   color: #ffffff;
   opacity: 40%;
   font-weight: bold;
@@ -173,4 +195,45 @@ textarea {
     to {
         transform: rotate(1turn);
     }
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.footer a {
+  color: white;
+  /* White color for the GitHub icon */
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.footer a:hover {
+  color: #00aced;
+  /* Change color on hover */
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.footer a {
+  color: white;
+  /* White color for the GitHub icon */
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.footer a:hover {
+  color: #00aced;
+  /* Change color on hover */
 }

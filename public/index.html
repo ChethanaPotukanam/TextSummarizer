@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AI Text Summarizer App</title>
     <link rel="stylesheet" href="stylesheet.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body>
-    <h1 style="color:orange;">Text Summarizer</h1>
+    <h1 class="tech-name" style="color:rgb(118, 183, 236);font-size:50px;">Text Summarizer</h1>
     <p> Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, our app can assist you. </p>
-    <p> Simply paste your text into the text area below and click the "Submit" button. </p>
+    <p> Simply paste your text into the text area below and click the "Summarize" button. </p>
     <div class="container">
       <div class="text-box">
         <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
@@ -23,15 +24,32 @@
       </div>
     </div>
     <section class="cta-section">
-      <div class="cta-content">
-        <div class="cta-text">
-        <h2>Curious how to build this app?</h2>
-        <p>Join Postman's Student Program and elevate your software development and API knowledge to help you in your career.</p>
-          <a href="https://www.postman.com/student-program/student-expert/?utm_campaign=CGC&utm_medium=referral&utm_source=internal&utm_term=pbl-skilljar&utm_content=pbl_summariser_app" class="cta-button" target="_blank" rel="noopener nofollow">Register as student</a>
+      <p class="cta-text">Technologies Used....</p>
+      <div class="cta-container">
+        <div class="cta-content">
+          <img src="images/learning.png" alt="Learning Technology">
+          <p class="tech-name">Postman API</p>
         </div>
-        <img src="images/learning.png"></img>
+        <div class="cta-content">
+          <img src="images/hugging_face.jpg" alt="Hugging Face">
+          <p class="tech-name">Hugging Face</p>
+        </div>
+        <div class="cta-content">
+          <img src="images/html.png" alt="HTML">
+          <p class="tech-name">HTML CSS JS</p>
+        </div>
+        <div class="cta-content">
+          <img src="images/nodeex.png" alt="Node.js">
+          <p class="tech-name">Node.js Express</p>
+        </div>
       </div>
     </section>
+    <footer class="footer">
+      <p>Created by Chethana Potukanam
+      <a href="https://www.linkedin.com/in/chethana-potukanam/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
+      <p>GitHub Link -> <a href="https://github.com/ChethanaPotukanam" target="_blank"><i
+            class="fab fa-github"></i></a></p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
